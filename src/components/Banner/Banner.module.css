@@ -1,0 +1,36 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+}
+
+/* css for banner*/
+.banner {
+  height: 800px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.movie_title {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.button {
+  color: white;
+  background-color: #334155;
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+
+.button_group > :last-child {
+  margin-left: 5px;
+}
+
+.overview {
+  color: white;
+  margin-top: 10px;
+  width: 20%;
+}

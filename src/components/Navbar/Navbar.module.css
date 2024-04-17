@@ -1,0 +1,38 @@
+/* Reset css */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* navbar css */
+.navbar {
+  font-size: 10px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar_scrolled {
+  font-size: 10px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.title_message {
+  text-decoration: none;
+  color: red;
+}

@@ -1,0 +1,34 @@
+/* Movie detail css */
+.movie_detail {
+  position: fixed;
+  top: 30vh;
+  height: 300px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.movie_detail_container {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.original_title {
+  padding: 20px 0;
+  border-bottom: 1px solid white;
+}
+
+.subtitle {
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.backdrop_path {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

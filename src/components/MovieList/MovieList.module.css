@@ -1,0 +1,62 @@
+/* Movie list css */
+.movie_list_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie_list {
+  display: flex;
+  gap: 1px;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.movie_poster {
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+/* Track */
+.movie_list::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  height: 5px;
+}
+
+/* Handle */
+.movie_list::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar handle */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.movie_list/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar handle on hover */
+}
+
+/* Track */
+.movie_list::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+  width: 10px;
+}
+
+/* Track on hover */
+.movie_list::-webkit-scrollbar-track:hover {
+  background: #ddd; /* Color of the scrollbar track on hover */
+}
+
+.movie_list_title {
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.img_zoom {
+  transition: transform 0.3s ease;
+}
+
+.img_zoom:hover {
+  transform: scale(1.1);
+}
